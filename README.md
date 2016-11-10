@@ -6,7 +6,7 @@ There are a couple of ways to introduce the  sdk into your application
 1. Using the [CDN](http://library.devless.io/cdn/dv-beta-1/dv_sdk.js)  
 2. Downloading from the [Github Repo](https://github.com/DevlessTeam/DV-JS-SDK/edit/master/README.md)
 
-Once you have the SDK in your application you may now heard over to your Devless instance , then the App Tab , from there you can click on connect to my App and copy the connection details under the web tab . It should look something like below
+Once you have the SDK in your application you may now head over to your Devless instance , then the App Tab , from there you can click on connect to my App and copy the connection details under the web tab . It should look something like below
 ```
 var constants = { "token":"955c8a0dc37b4a22b5950a9e0e9491d0", "key":"TEMPORAL-KEY", "domain":"http://localhost:9000" }
 Devless = new Devless(constants);
