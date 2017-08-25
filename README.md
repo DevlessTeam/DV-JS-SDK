@@ -128,15 +128,15 @@ SDK.call('devless', 'updateProfile', ['example@mail.com', 'password', 'username'
 
 **Logging user out**
 ```
-Devless.call('devless', 'logout', [], function(response){console.log(response)})
+SDK.call('devless', 'logout', [], function(response){console.log(response)})
 
 ```
 
 **token:**
 You will need to set an access token incase you need to login a user .
-You can set user access token with ``Devless.setToken(token)`` .
-You can have access to the current token with ``Devless.getToken()`` or you can pass an optional callback function to process the token.
-``Devless.getToken(callback)``
+You can set user access token with ``SDK.setToken(token)`` .
+You can have access to the current token with ``SDK.getToken()`` or you can pass an optional callback function to process the token.
+``SDK.getToken(callback)``
 
 
 
