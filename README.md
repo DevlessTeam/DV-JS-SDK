@@ -32,10 +32,6 @@ params={
 SDK.queryData("serviceName", "tableName", params, function(response){
   console.log(response)
 });
-
- Eg: SDK.queryData("serviceName", "table", params, function(response){
-      console.log(response)
- });
 ```
 
 * To query data from the Devless backend you need  to specify the service name, table from which to query  and then a callback function.
