@@ -19,7 +19,7 @@ params={
     size:2,
     offset:2,
     orderBy:"name",
-    search:"field with name edmond",
+    search:["name, edmond"],
     orWhere: ["age,2"],
     lessThan: ["age,1"],
     between: ["age,1,5"],
