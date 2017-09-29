@@ -36,8 +36,6 @@
 				returnedInstance = DevlessInstance; //and returns a new Devless instance only if connected successfully
 
 			} else {
-				console.debug("your app connected to Devless successfully. you can get services from store.devless.io ");
-
 				returnedInstance = DevlessInstance; //returns a new Devless instance only if connected successfully
 
 			}
