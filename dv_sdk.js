@@ -175,16 +175,16 @@
 	function getToken(callback) {
 		var withCallback = callback || false;
 		if (withCallback) {
-			callback(sessionStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token));
+			callback(localStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token));
 		} else {
 
-			return sessionStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token)
+			return localStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token)
 		}
 
 	}
 
 	function setToken(token) {
-		sessionStorage.setItem('devless_user_token' + this.devless_instance_url + this.devless_token, token);
+		localStorage.setItem('devless_user_token' + this.devless_instance_url + this.devless_token, token);
 		return true;
 	}
 
@@ -249,9 +249,9 @@
 		xhr.open(method.toUpperCase(), this.devless_instance_url + sub_url);
 		xhr.setRequestHeader("content-type", "application/json");
 		xhr.setRequestHeader("devless-token", this.devless_token);
-		if (sessionStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token) != "") {
+		if (localStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token) != "") {
 
-			xhr.setRequestHeader("devless-user-token", sessionStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token));
+			xhr.setRequestHeader("devless-user-token", localStorage.getItem('devless_user_token' + this.devless_instance_url + this.devless_token));
 		}
 
 
