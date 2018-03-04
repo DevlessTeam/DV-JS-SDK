@@ -19,7 +19,9 @@ params={
     size:2,
     offset:2,
     orderBy:"name",
-    randomize:1
+    desc:"name",
+    asc:"name",
+    randomize:1,
     search:["name, edmond"],
     orWhere: ["age,2"],
     lessThan: ["age,1"],
