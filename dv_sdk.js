@@ -1,6 +1,6 @@
 /**
       @author Devless
-      @version 0.01
+      @version 1
       @description Devless sdk for Javascript	
       */
     /* Initizialize library */
