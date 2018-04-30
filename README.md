@@ -29,7 +29,8 @@ params={
     greaterThan: ["age,20"],
     lessThanEqual: ["age,30"],
     greaterThanEqual: ["age,1"],
-    where:["id,1","name,edmond"]
+    where:["id,1","name,edmond"],
+    related: "*"
 }
 
 SDK.queryData("serviceName", "tableName", params, function(response){
