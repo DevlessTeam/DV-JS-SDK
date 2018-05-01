@@ -9,6 +9,13 @@ To introduce the SDK into your framework use the ```connect to app``` button wit
 ## Getting Started 
 Paste the copied connection details from ```connect to app``` into your HTML or web page. You may check if connection has been established from the web console of your favourite browser.
 You can follow up on connection status from the console tab of your browser developer tool.
+```
+ var constants = {
+        "token": "8790197d5b2f2a7eab59b68ef2dfdbb7",
+        "domain": "http://localhost:8080"
+    };
+    SDK = new Devless(constants);
+```
 
 **queryData:**
 
