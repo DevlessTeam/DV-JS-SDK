@@ -36,6 +36,7 @@ params={
     greaterThan: ["age,20"],
     lessThanEqual: ["age,30"],
     greaterThanEqual: ["age,1"],
+    notEqual:["age,23"],
     where:["id,1","name,edmond"],
     related: "*"
 }
